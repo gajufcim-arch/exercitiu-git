@@ -6,6 +6,7 @@ import json
 
 
 def incarca(cale):
+
     """Citeste lista de tinte din fisierul JSON."""
     with open(cale) as f:
         return json.load(f)
